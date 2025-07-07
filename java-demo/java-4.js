@@ -57,3 +57,29 @@ console.log(typeof myFunction);
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+
+
+
+// || ========================================================================= ||
+
+// stack (primitive) && heap (non-primitive)
+
+let youtubeName = "xyz"
+
+let youtubeNumber = youtubeName
+youtubeNumber = "abcd"
+
+console.log(youtubeName);
+console.log(youtubeNumber);
+
+
+let userOne = {
+    name: "paresh",
+    id: "xyz"
+}
+
+let userTwo = userOne
+userTwo.name = "lol";
+
+console.log(userOne);
